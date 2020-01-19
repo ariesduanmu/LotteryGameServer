@@ -1,0 +1,7 @@
+sqlalchemy
+bottle
+bottle_sqlalchemy
+pymysql
+gunicorn
+numpy
+requests
