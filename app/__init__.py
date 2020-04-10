@@ -2,7 +2,7 @@
 # @Author: Li Qin
 # @Date:   2019-12-12 18:15:01
 # @Last Modified by:   Li Qin
-# @Last Modified time: 2020-01-19 11:29:22
+# @Last Modified time: 2020-04-10 12:05:29
 from bottle import Bottle
 from bottle import response
 from bottle.ext import sqlalchemy
@@ -32,7 +32,6 @@ def enable_cors():
 
 
 
-from . import login
+
 from . import lottery
-from . import staticfile
 
